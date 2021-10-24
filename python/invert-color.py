@@ -9,8 +9,8 @@
 #
 # Funda / Steps :
 # 1. Seperate the R, G, B Components
-# 2. Subtract from 255 to get inverted color the seperated component
-# 3. Convert back the individual component to hexa decimal and concat all the seperate R, G, B components
+# 2. Subtract from 255 to get inverted color the separated component
+# 3. Convert back the individual component to hexa decimal and concat all the separate R, G, B components
 #
 # Author:
 #   Napoleon Arouldas
