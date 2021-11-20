@@ -1,0 +1,42 @@
+/* Filter Price Range  upper limit range */
+
+.range-slider-container {
+  width: 40%;
+}
+
+.range-slider-container .range-slider input[type="range"]#upper_slider_handle {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
+}
+
+.range-slider-container
+  .range-slider
+  input[type="range"]#upper_slider_handle:focus {
+  outline: none;
+}
+
+.range-slider-container
+  .range-slider
+  input[type="range"]#upper_slider_handle::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+.range-slider-container
+  .range-slider
+  input[type="range"]#upper_slider_handle::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background: #9e0434;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -15px;
+}
