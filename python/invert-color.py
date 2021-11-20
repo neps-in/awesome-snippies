@@ -6,6 +6,10 @@
 #   For a given color in hex format as '#ce12fa' gives a inverted color in the same
 # format as "#31ed5"
 #   * Support for black & white / grayscale
+# 
+# Inspiration :
+#   To write python version for this https://github.com/onury/invert-color
+#
 #
 # Funda / Steps :
 #   1. Seperate the R, G, B Components
