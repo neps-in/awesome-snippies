@@ -21,6 +21,9 @@
 #
 # Author:
 #   Napoleon Arouldas
+# 
+# Inspired from stackoverflow post : 
+# https://stackoverflow.com/questions/35969656/how-can-i-generate-the-opposite-color-according-to-current-color/35970186?noredirect=1#comment123257274_35970186
 #
 # Link:
 #   https://neps.in
