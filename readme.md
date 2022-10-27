@@ -6,6 +6,8 @@ Its in constant update, feel free to **Star** or **Watch** this repository, so t
 
 You may fork this repo and you can add your own awesome tools, techs that you find useful, and you can submit pull request
 
+
+
     _                                         
    / \__      _____  ___  ___  _ __ ___   ___ 
   / _ \ \ /\ / / _ \/ __|/ _ \| '_ ` _ \ / _ \
@@ -17,7 +19,11 @@ You may fork this repo and you can add your own awesome tools, techs that you fi
 \___ \| '_ \| | '_ \| '_ \| |/ _ \/ __|
  ___) | | | | | |_) | |_) | |  __/\__ \
 |____/|_| |_|_| .__/| .__/|_|\___||___/
-              |_|   |_|                
+              |_|   |_|  
+              
+              
+              
+              
 
 # Contributing Guides
 
