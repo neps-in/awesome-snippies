@@ -16,8 +16,6 @@
 #   2. Subtract from 255 to get inverted color the separated component
 #   3. Convert back the individual component to hexa decimal and concat all the separate R, G, B components
 #
-# Inspiration :
-#   To write python version for this https://github.com/onury/invert-color
 #
 # Author:
 #   Napoleon Arouldas
