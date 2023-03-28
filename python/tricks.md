@@ -119,7 +119,7 @@ Python has some built-in higher-order functions that give us the convenience to 
 
 For example, the map() function is a famous and frequently-used higher-order function. It receives two parameters, one is a function and the other is an iterable. Executing the map function will apply the function to each element of the iterable.
 
-### pythonic way
+### Map() function
 
 ```py
 names = ['yAnG', 'MASk', 'thoMas', 'LISA']
@@ -133,6 +133,8 @@ As the above example shows, with the help of the map() function, we can avoid wr
 Another famous higher-order function is reduce(). As its name implies, it applies a function into an iterable and does the cumulative operation for it.
 
 For instance, the following example converts a list into one string:
+
+### reduce() function
 
 ```py
 from functools import reduce
@@ -174,7 +176,8 @@ print(cities_us)
 
 Almost every programming language supports string formatting syntax. But not each one is as elegant as Python’s f-string technique.
 
-F-String samples
+### F-String samples
+
 ```py
 pi = 3.1415926
 print(f'Pi is approximately equal to {pi:.2f}')
