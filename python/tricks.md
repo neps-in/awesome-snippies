@@ -1,7 +1,8 @@
-# 1. Avoid Nested Python Loops Using product() Function
+# Python tricks to makes your code consice.
 
-# Old way
+## 1. Avoid Nested Python Loops Using product() Function
 
+### Old way
 ```
 list_a = [1, 2020, 70]
 list_b = [2, 4, 7, 2000]
@@ -15,8 +16,9 @@ for a in list_a:
 
 ```
 
-# Pythonic way
-# To make it neater and cleaner, we can use the product() function, which is from the itertools module, to optimise the code:
+### Pythonic way
+
+To make it neater and cleaner, we can use the product() function, which is from the itertools module, to optimise the code:
 
 ```
 from itertools import product
@@ -31,14 +33,14 @@ for a, b, c in product(list_a, list_b, list_c):
 # 70 2000 7
 ```
 
-# 2. Walrus Operator
+## 2. Walrus Operator
 
 Walrus Operator: A Cute Trick for Assignment Expressions
 Since Python 3.8, there is a new syntax called “walrus operator” that can assign values to variables as part of a larger expression.
 
 The operator := got its cute name from the eyes and tusks of a walrus.
 
-# This syntax is very easy to understand. For instance, if we would like to write the following two lines of Python code in one line, how to do it?
+This syntax is very easy to understand. For instance, if we would like to write the following two lines of Python code in one line, how to do it?
 
 ```
 author = "Yang"
@@ -60,27 +62,29 @@ print(author:="Yang")
 # Yang
 ```
 
-# 3. Ternary Conditional Operator: Writing a Simple If-Else Structure in One Line
+## 3. Ternary Conditional Operator: Writing a Simple If-Else Structure in One Line
 
+### old way
 ```py
 # Old way
 if a<b:
   min = a
 else:
   min = b
-
-# Pythonic way
-min = a if a < b else b
-
 ```
 
-# 4. Using Lambda Functions To Define Simple Functions
+### Pythonic way
+```py
+min = a if a < b else b
+```
+
+## 4. Using Lambda Functions To Define Simple Functions
 
 If you only want to define a simple function, probably you don’t need to use the traditional syntax for it. The lambda function is a more elegant option.
 
 For example, the following function is to calculate the Fibonacci numbers:
 
-## Old way
+### Old way
 ```py
 def fib(x):
     if x<=1:
@@ -91,14 +95,16 @@ def fib(x):
 
 It works perfectly but the code itself is a bit ugly. Let’s write a one-liner to implement the same function:
 
-## Pythonic way
+### Pythonic way
 ```py
 fib = lambda x: x if x <= 1 else fib(x - 1) + fib(x - 2)
 ```
 
-# 5. List Comprehensions: Get a List in a Pythonic Way
+## 5. List Comprehensions: Get a List in a Pythonic Way
 
 To say the list comprehension makes your code elegant is still an understatement. It can save you lots of typing and time but still keep your code readable. Few programming languages can do this.
+
+### Pythonic way
 
 ```py
 Genius = ["Jerry", "Jack", "tom", "yang"]
@@ -107,11 +113,13 @@ print(L1)
 # ['Not Genius', 'Not Genius', 'Not Genius', 'yang']
 ```
 
-# 6. Leveraging the Higher-Order Functions in Python
+## 6. Leveraging the Higher-Order Functions in Python
 
 Python has some built-in higher-order functions that give us the convenience to write some common logic.
 
 For example, the map() function is a famous and frequently-used higher-order function. It receives two parameters, one is a function and the other is an iterable. Executing the map function will apply the function to each element of the iterable.
+
+### pythonic way
 
 ```py
 names = ['yAnG', 'MASk', 'thoMas', 'LISA']
@@ -136,7 +144,7 @@ print(city_to_str)
 
 ```
 
-# 7. Union Operators: The Easiest Way To Merge Dictionaries
+## 7. Union Operators: The Easiest Way To Merge Dictionaries
 
 Merging dictionaries is a common requirement in daily Python programming. There are many ways to do it. But all of them were ugly before Python 3.9.
 
@@ -162,10 +170,11 @@ print(cities_us)
 # {'New York City': 'US', 'Los Angeles': 'US', 'London': 'UK', 'Birmingham': 'UK'}
 ```
 
-# 8. F-Strings: The Pythonic String Formatting Technique
+## 8. F-Strings: The Pythonic String Formatting Technique
 
 Almost every programming language supports string formatting syntax. But not each one is as elegant as Python’s f-string technique.
 
+F-String samples
 ```py
 pi = 3.1415926
 print(f'Pi is approximately equal to {pi:.2f}')
@@ -199,7 +208,7 @@ print(f"Today is {datetime.today()}")
 # Today is 2021-07-31 18:20:48.956829
 ```
 
-# 9. Using Asterisks for Unpacking Iterables and Destructuring Assignments
+## 9. Using Asterisks for Unpacking Iterables and Destructuring Assignments
 How to merge a list, a tuple and a set into one list?
 
 The most elegant way is using asterisks:
